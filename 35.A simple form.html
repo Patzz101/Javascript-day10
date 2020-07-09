@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    .container > h3 {
+
+        color: skyblue;
+
+    }
+
+</style>
+<body>
+    <div class="container">
+    <h1>A simple Form</h1>
+    <h3>Form Fundamentals</h3>
+    </div>
+    <fieldset id="main-set">
+        <legend>Customer Info</legend>
+        <span>Name:</span><input type="text"placeholder="Enter your name" autofocus required size="50">
+        <br /><br />
+        <span>Telephone:</span><input type="text"placeholder="Pattern: 1-234-567-8910" autofocus required size="50">
+        <br /><br />
+        <span>Email adress:</span><input type="text"placeholder="Enter your email address" autofocus required size="50">
+    </fieldset>
+    <br />
+    <fieldset id="main-set">
+        <legend>Books</legend>
+        <input type="text"><span> Quantity(Maximim 5):</span><input type="number" min="1" max="5" autofocus required size="50">
+    </fieldset>
+    <div class="submit">
+    <br />
+    <input type="submit" value="Submit">
+    </div>
+</body>
+</html>
